@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+body{
+    padding: 50px;
+}
+.navbar{
+    display: flex;
+}
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap:20px;
+}
+
+.links a{
+    text-decoration: none ;
+    color: gray;
+}
+.links a:hover{
+    color: rgb(245, 50, 50);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 230px 150px;
+    gap: 20px;
+    padding: 20px 0;
+    min-width: 1000px;
+}
+.first{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+
+}
+.first >img{
+    height: 100%;
+    width: 100%;
+}
+.second{
+    grid-row-start: 1;
+    grid-row-end: 3 ;
+    grid-column-start: 3;
+    background-color: hsl(240, 100%, 5%) ;
+    color: white;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+}
+
+.yellow{
+    color: rgb(255, 154, 2);
+}
+
+.article > h4:hover{
+    color: rgb(255, 154, 2);
+    cursor: pointer;
+
+}
+.articles{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+hr{
+    color: rgba(255, 255, 255, 0.548);
+    height: 1px;;
+}
+
+.third{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 17px;
+    color: gray;
+}
+button{
+    width: 200px;
+    font-family: inherit;
+    padding: 10px 0; 
+    background-color: orangered; 
+    border: none;
+    color: white;
+    font-size: 1.2rem;  
+    margin-top: 87px;
+}
+
+p.title {
+    font-size: 3.8rem;
+    color: black;
+    FONT-WEIGHT: 700;
+
+}
+
+h1{
+    color: gray;
+    margin: 10px 0;
+}
+.fifth img, .sixth img, .seventh img{
+    float: left;
+    background-size: cover;
+    height: 150px;
+    margin-right: 20px;
+}
+h4{
+    margin-bottom: 15px;
+}
